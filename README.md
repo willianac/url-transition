@@ -54,3 +54,5 @@ App.js
 ```
 
 Pronto! Dentro do PageSlide estamos retornando uma div animada, e dentro dessa div temos <Outlet />, um componente do react-router-dom v6 que retorna todas as rotas filhas dessa rota.
+
+Obs: Você pode ver um exemplo melhor dessa animação no meu repositório "market"!
