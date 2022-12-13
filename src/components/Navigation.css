@@ -1,0 +1,12 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8%;
+    background-color: #ff7d4d;
+}
+
+nav > h1 {
+    color : white;
+    margin-left : 20px;
+}
