@@ -6,7 +6,7 @@ Utilizando react-spring e react-router-dom, é possível fazer essa bela animaç
 
 #### 1. Crie um componente que fará a transição
 
-#### PageSlide.js
+PageSlide.js
 ```js
 import { Outlet, useLocation } from "react-router-dom"
 import {useTransition, animated} from "react-spring" 
@@ -27,7 +27,7 @@ Você pode mudar os valores de opacidade, mudar o tipo de transform e o que for 
 
 #### 2. Crie as rotas da sua aplicação
 
-#### App.js
+App.js
 ```js
 <BrowserRouter>
     <Routes>
@@ -40,7 +40,7 @@ Você pode mudar os valores de opacidade, mudar o tipo de transform e o que for 
 
 #### 3. Crie uma rota pai que renderiza a animação, e envolva as rotas nele
 
-#### App.js
+App.js
 ```js
 <BrowserRouter>
     <Routes>
